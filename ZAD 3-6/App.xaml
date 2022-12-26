@@ -1,0 +1,13 @@
+﻿<Application x:Class="ZAD_3_6.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ZAD_3_6"
+             StartupUri="/WindowFolder/AutorisationWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/ResorseFolder/Dictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
